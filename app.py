@@ -53,7 +53,7 @@ def generator(n):
 
         timestamp = int(time.time())
         random_num = random.randint(10000, 99999)
-        new_file = f"darwingpt-{random_num}-{timestamp}.py"
+        new_file = f"app-{random_num}-{timestamp}.py"
         print(f"Writing agent to {new_file}")
         if modified_code:
             with open(new_file, 'w') as write_file:
